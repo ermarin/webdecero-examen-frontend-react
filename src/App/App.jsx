@@ -1,10 +1,11 @@
 import AppRouter from "./AppRouter";
+import { BrowserRouter } from "react-router-dom";
 
 const App = () => {
   return (
-    <div className="bg-primary min-h-screen font-sans text-gray-50">
+    <BrowserRouter>
       <AppRouter />
-    </div>
+    </BrowserRouter>
   );
 };
 
