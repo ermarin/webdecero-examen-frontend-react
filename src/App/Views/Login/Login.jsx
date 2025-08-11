@@ -1,16 +1,12 @@
-// Insert your imports there
+import LoginForm from "../../components/LoginForm";
 
 const Login = () => {
-
   return (
-    <div className="login-card">
-      <form>
-        <input type="text" name="username" placeholder="Usuario" />
-        <input type="password" name="password" placeholder="Contraseña" />
-        <input type="submit" name="login-view" className="login login-submit" value="Ingresar" />
-      </form>
+    <div className="flex items-center justify-center min-h-screen bg-primary"
+    >
+      <LoginForm />
     </div>
   );
-}
+};
 
 export default Login;
